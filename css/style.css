@@ -1,0 +1,277 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* Typo CSS */
+
+h1{
+    font-size: 80px;
+}
+
+h2{
+    font-size: 36px;
+}
+
+p{
+    font-size: 18px;
+    color: #484848;;
+}
+
+.w-500{
+    font-weight: 500;
+}
+
+.w-600{
+    font-weight: 600;
+}
+
+.w-800{
+    font-weight: 800;
+}
+
+/* Color Palete CSS */
+
+.primary-font-color{
+    color: #F5CD5E;
+}
+
+.black-font-color{
+    color: #000000 !important;
+}
+
+.dark-font-color{
+    color: #484848;
+}
+
+.primary-bg{
+    background-color: #F5CD5E;
+}
+
+.black-bg{
+    background-color: #111111;
+}
+
+.dark-bg{
+    background-color: #484848;
+}
+
+/* Color Palete CSS End */
+
+/* Buttons CSS */
+
+.btn-main{
+    background-color: #F5CD5E;
+    box-shadow: 0px 8px 8px 0px rgba(245, 205, 94, 0.4);
+    height: 60px;
+    padding: 16px;
+    max-width: 260px;
+    width: 100%;
+    color: #ffff;
+    font-weight: 500;
+    border-radius: 50px;
+}
+
+.btn-main:hover{
+    background-color: #F5CD5E;
+    box-shadow: none;
+    color: #ffffff;
+}
+
+
+
+/* Navigation CSS */
+.nav-bar {
+    background-color: #fff;
+    border-bottom: 1px solid #CECECE;
+    height: 60px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.nav-bar ul{
+    list-style: none;
+    padding: 0;
+    max-width: 480px;
+    width: 100%;
+    margin: 0;
+}
+
+.nav-bar ul li {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar ul li a {
+    display: flex;
+    align-items: center;
+    padding: 0 18px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #000;
+}
+
+.nav-bar ul li a.active {
+  border-bottom: 1px solid #F5CD5E;
+}
+
+/* Navigation CSS End */
+
+
+/* Into CSS */
+.intro{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .intro h1{
+        font-size: 48px;
+    }
+  }
+
+  /* Into CSS End */
+
+
+  /* Skills & Stack CSS */
+
+  .skills{
+    padding: 100px 0;
+  }
+
+  .skill{
+    height: 300px;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 16px;
+    background-repeat: no-repeat;
+    background-position: 24px 20px;
+  }
+
+  .skill h2{
+    margin: 0;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+  }
+
+  .skill-a{
+    background-image: url('../images/skills/html.svg');
+  }
+
+  .skill-b{
+    background-image: url('../images/skills/css.svg');
+  }
+
+  .skill-c{
+    background-image: url('../images/skills/js.svg');
+  }
+
+
+.stacks {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.stacks li {
+    margin: 0 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .stacks li img {
+        width: 50px;
+    }
+}
+
+/* Skills & Stack End */
+
+
+.about{
+    padding: 100px 0;
+    height: auto;
+    background-color: #f1f1f1;
+    background-image: url('../images/myself.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .about {
+        background-position: center bottom;
+    }
+}
+
+
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .75 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .75 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .75 );
+  }
+  100%
+  {
+    transform: scale( .75 );
+  }
+}
+
+.heart
+{
+  width: 40px;
+  animation: heartbeat 1s infinite;
+}
+
+.joystick
+{
+    width: 128px;
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+  
+
+
+.contact{
+    padding: 100px 0;   
+}
+
+@media only screen and (max-width: 600px) {
+    .contact h1{
+        font-size: 48px;
+    }
+  }
+
+
+
+
+
+
+
